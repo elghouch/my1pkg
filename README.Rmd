@@ -22,7 +22,7 @@ This is my personal package. The goal of `my1pkg` is to …
 You can install `my1pkg` with:
 
 ``` r
-devtools::install_github("elghouch/my1pkg")
+devtools::install_github("elghouch/my1pkg", build_vignettes =TRUE)
 ```
 
 ## Usage, examples and details
