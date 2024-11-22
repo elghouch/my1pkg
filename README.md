@@ -2,7 +2,7 @@
 
 My first R package
 
-This is my personal package. It contains only two functions. 
+This is my personal package. It contains only two functions.    
 The aim of this toy package is to show how to build an R package.
 
 ## Installation
