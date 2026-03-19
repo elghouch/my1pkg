@@ -28,10 +28,12 @@
 #' @export
 #'
 #' @importFrom ggplot2 ggplot geom_point aes
-#' 
+#'
 add <- function(x, y, plot = FALSE) {
   if (plot)  {
     p <- ggplot() + geom_point(aes(x, y))
-    print(p) }
+    print(p)  # Force the plot to display
+              # Inside a function or a loop ggplot objects are not automatically displayed
+  }
   return(x + y)
 }
