@@ -10,7 +10,7 @@ Note that this package also contains a Shiny app.
 You can install `my1pkg` with:
 
 ```{.r}
-devtools::install_github("elghouch/my1pkg")
+pak::pak("elghouch/my1pkg")
 ```
 
 ## Usage, examples and details
